@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>PhishDetector Dashboard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="container">
+    <h1>PhishDetector</h1>
+    <div id="scoreCard">
+      <h2 id="riskLevel">Loading...</h2>
+      <p id="scoreText">Risk Score: --</p>
+    </div>
+
+    <div id="details">
+      <h3>Malicious Parts</h3>
+      <ul id="maliciousList">
+        <li>Scanning in progress...</li>
+      </ul>
+    </div>
+
+    <div id="footer">
+      <button id="refreshBtn">Refresh</button>
+      <button id="clearBtn">Clear Cache</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
